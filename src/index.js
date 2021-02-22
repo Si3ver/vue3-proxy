@@ -19,4 +19,13 @@ const state = reactive({
   hobby: ['film', 'coding', 'piano']
 })
 
+state.name = 'alwynzhou'
+state.age++
+state.info.job = 'FE teacher'
+state.info.students.push({
+  id: 3,
+  name: 'xiaoli'
+})
+state.hobby.push('sleep')
+
 console.log(state)
